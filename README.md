@@ -9,7 +9,7 @@ Babel Bot provides seamless two-way language translation for your Discord server
 - Automatic Translation: All messages posted in the designated international channels are automatically translated to English and sent to a specified English channel. This allows users who don't speak the original language to follow the conversations.
 - Command-based Translation: Users can use the /translate command followed by the target language and the message text to translate English messages and send them to the corresponding international channel. This enables users to actively participate in discussions in different languages.
 - Content Moderation: The bot incorporates content moderation to ensure a safe and respectful environment. It filters out any inappropriate or offensive language during the translation process.
-- OpenAI Compatible: Any OpenAI-compatible API can be easily plugged in. We recommend Mixtral-8x7b deployed on Heurist, a decentralized GPU network for AI inference, to perform accurate and efficient translations. You can use `https://llm-gateway.heurist.xyz` as the `LLM_API_URL`. API documentations: https://docs.heurist.ai/integration/heurist-llm-gateway
+- OpenAI Compatible: Any OpenAI-compatible API can be easily plugged in. We recommend Mixtral-8x7b deployed on Xalora, a decentralized GPU network for AI inference, to perform accurate and efficient translations. You can use 
 
 ## Usage
 
