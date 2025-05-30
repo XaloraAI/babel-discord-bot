@@ -1,0 +1,30 @@
+[llm_model]
+model_id = "nousresearch/nous-hermes-2-mixtral-8x7b-dpo"
+[language_channels]
+korean = 1226343034514440353
+chinese = 1226343034514440353
+hindi = 1226343034514440353
+japanese = 1226343034514440353
+french = 1226343034514440353
+vietnamese = 1226343034514440353
+spanish = 1226343034514440353
+
+[target_channel]
+target_channel_id = 1226275844809560175 
+
+[monitored_channels]
+channels = [
+    1224412891340607712, # Chinese channel
+    1224412666450153482, # Korean channel
+    1224412835392651334, # Japanese channel
+    1224412612025126965, # India channel
+    1224412994549714975, # French channel
+    1224414528863735940, # Vietnamese channel
+    1224505863784632340, # Spanish channel
+    1226343034514440353, # Mock chinese channel
+]
+
+[discord_prompt]
+prompt = """
+You are an AI translator in the Discord of Heurist AI (a Web3 project). Your task is to identify the language of the user message. Then translate it to {language}. Your response should only include the translation of the original user message. Provide the translation in a clear, concise, and natural-sounding manner. Maintain the original meaning and tone of the message. Be sure to correctly translate the terms and slangs used by cryptocurrency communities. Only respond with the translated contents and nothing else.
+"""
