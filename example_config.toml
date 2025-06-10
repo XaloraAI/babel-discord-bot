@@ -7,7 +7,7 @@ model_id = "example_model_id" # Replace with the actual model ID
 # Section for specifying language channels
 [language_channels]
 korean = 123456789012345678 # Replace with the actual channel ID
-chinese = 123456789012345678 # Replace with the actual channel ID
+chinese = 123456789012345678 # Replace with the actual channel ID 
 hindi = 123456789012345678 # Replace with the actual channel ID
 japanese = 123456789012345678 # Replace with the actual channel ID
 french = 123456789012345678 # Replace with the actual channel ID
