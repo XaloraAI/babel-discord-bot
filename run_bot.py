@@ -4,7 +4,7 @@ import asyncio
 
 import toml
 import discord
-from discord.commands import Option
+from discord.commands import Option 
 from openai import OpenAI
 from dotenv import load_dotenv
 
